@@ -1,232 +1,152 @@
 <!DOCTYPE html>
 <html lang="en-us">
-
     <!doctype html>
-    <html lang="en">
-      <head>
+</html>
+<html lang="en">
+    <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="">
         <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
         <meta name="generator" content="Hugo 0.88.1">
         <title>Collection | ThePalad1n</title>
-    
-        <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/album/">
-    
-        
-    
-        <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    
-        <style>
-        .py-5-text-center-container{
-          background-image: url("/images/webbanner.jpg");
-        }
-        .album{
-          background-image: url("/images/backgroundtry2.webp");
-        }
 
-          .bd-placeholder-img {
-            font-size: 1.125rem;
-            text-anchor: middle;
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            user-select: none;
-          }
-    
-          @media (min-width: 768px) {
-            .bd-placeholder-img-lg {
-              font-size: 3.5rem;
+        <link
+        rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/album/">
+
+
+        <!-- Bootstrap core CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <style>
+
+            .bd-placeholder-img {
+                font-size: 1.125rem;
+                text-anchor: middle;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                user-select: none;
             }
-          }
+
+            @media(min-width: 768px) {
+                .bd-placeholder-img-lg {
+                    font-size: 3.5rem;
+                }
+            }
         </style>
-    
-        
-      </head>
-      <body>
-        
-    <header>
-      <div class="collapse bg-dark" id="navbarHeader">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-8 col-md-7 py-4">
-              <h4 class="text-white">About</h4>
+
+
+    </head>
+    <body>
+
+        <header>
+            <div class="collapse bg-dark" id="navbarHeader">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-8 col-md-7 py-4">
+                            <h4 class="text-white">About</h4>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
+            <div class="navbar navbar-dark bg-dark shadow-sm">
+                <div class="container">
+                    <a href="#" class="navbar-brand d-flex align-items-center">
+                        <strong>Collection</strong>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <main>
+
+            <section class="py-5 text-center container">
+                <div class="has-bg-img"></div>
+                <div class="row py-lg-5">
+                    <div class="col-lg-6 col-md-8 mx-auto">
+                        <h1 class="fw-light">The Palad1n's DND Collection
+                        </h1>
+                        <p class="lead text-muted">This is my collection of DND materials, Classes, Feats, Races, Magic Items, and More.</p>
+                        <img class="bg-img" src="/images/webbanner.jpg" alt="banner">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="album py-5 bg-light">
+            <div class="container">
+
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="images/saiyanclasspic.jpg" class="bd-placeholder-img card-img-top" width="100%" height="225" alt="Saiyan"></svg>
+                        <div class="card-body">
+                            <p class="card-text">This is my combination Saiyan class and race. Similar to a fighter and monk but with unique abilities.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" onclick="window.location.href='saiyan.html'" class="btn btn-sm btn-outline-secondary">View</button>
+                                </div>
+                                <small class="text-muted">05/13/2022</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="images/deathknight.png" class="bd-placeholder-img card-img-top" width="100%" height="225" alt="Lich"></svg>
+                    <div class="card-body">
+                        <p class="card-text">This is my paladin death knight subclass. Based off a naruto inspired lich king.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button" onclick="window.location.href='deathKnight.html'" class="btn btn-sm btn-outline-secondary">View</button>
+                            </div>
+                            <small class="text-muted">05/13/2022</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img src="images/ring.jpg" class="bd-placeholder-img card-img-top" width="100%" height="225" alt="Balboa"></svg>
+                <div class="card-body">
+                    <p class="card-text">This is the Ring of Sir Balboa, a legendary fighter with limitless stamina. This ring grants the user relentless endurance.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" onclick="window.location.href='ringOfBalboa.html'" class="btn btn-sm btn-outline-secondary">View</button>
+                        </div>
+                        <small class="text-muted">05/13/2022</small>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="navbar navbar-dark bg-dark shadow-sm">
-        <div class="container">
-          <a href="#" class="navbar-brand d-flex align-items-center">
-            <strong>Collection</strong>
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+
+        <div class="col">
+            <div class="card shadow-sm">
+                <img src="images/artificer.jpg" class="bd-placeholder-img card-img-top" width="100%" height="225" alt="artificer"></svg>
+            <div class="card-body">
+                <p class="card-text">This is an artificer rework. Two independent characters that are bound together. One physically weak and one physically strong.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                        <button type="button" onclick="window.location.href='artificerNew.html'" class="btn btn-sm btn-outline-secondary">View</button>
+                    </div>
+                    <small class="text-muted">05/13/2022</small>
+                </div>
+            </div>
         </div>
-      </div>
-    </header>
-    
-    <main>
-    
-      <section class="py-5 text-center container">
-        <div class="row py-lg-5">
-          <div class="col-lg-6 col-md-8 mx-auto">
-            <h1 class="fw-light">The Palad1n's DND Collection </h1>
-            <p class="lead text-muted">This is my collection of DND materials, Classes, Feats, Races, Magic Items, and More.</p>
-          </div>
+    </body>
+</html></div><div class="col">
+<div class="card shadow-sm">
+    <img src="images/Gravity_Push_Pull.webp" class="bd-placeholder-img card-img-top" width="100%" height="225" alt="Almighty Push"></svg>
+<div class="card-body">
+    <p class="card-text">This is a cantrip for Pain's almighty push. Can be used with gravity wizards or any other class.</p>
+    <div class="d-flex justify-content-between align-items-center">
+        <div class="btn-group">
+            <button type="button" onclick="window.location.href='almightyPush.html'" class="btn btn-sm btn-outline-secondary">View</button>
         </div>
-      </section>
-    
-      <div class="album py-5 bg-light">
-        <div class="container">
-    
-          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-            <div class="col">
-              <div class="card shadow-sm">
-                <img src="images/saiyanclasspic.jpg" class="bd-placeholder-img card-img-top" width="100%" height="225"  alt="Saiyan"></svg>    
-                <div class="card-body">
-                  <p class="card-text">This is my combination Saiyan class and race. Similar to a fighter and monk but with unique abilities.</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" onclick="window.location.href='saiyan.html'" class="btn btn-sm btn-outline-secondary">View</button>
-                    </div>
-                    <small class="text-muted">05/13/2022</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card shadow-sm">
-                <img src="images/deathknight.png" class="bd-placeholder-img card-img-top" width="100%" height="225"  alt="Lich"></svg>    
-                <div class="card-body">
-                  <p class="card-text">This is my paladin death knight subclass. Based off a naruto inspired lich king.</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button"  onclick="window.location.href='deathKnight.html'"  class="btn btn-sm btn-outline-secondary">View</button>
-                    </div>
-                    <small class="text-muted">05/13/2022</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card shadow-sm">
-                <img src="images/ring.jpg" class="bd-placeholder-img card-img-top" width="100%" height="225"  alt="Balboa"></svg>    
-                <div class="card-body">
-                  <p class="card-text">This is the Ring of Sir Balboa, a legendary fighter with limitless stamina. This ring grants the user relentless endurance.</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button"  onclick="window.location.href='ringOfBalboa.html'" class="btn btn-sm btn-outline-secondary">View</button>
-                    </div>
-                    <small class="text-muted">05/13/2022</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-    
-            <div class="col">
-              <div class="card shadow-sm">
-                <img src="images/artificer.jpg" class="bd-placeholder-img card-img-top" width="100%" height="225"  alt="artificer"></svg>    
-                <div class="card-body">
-                  <p class="card-text">This is an artificer rework. Two independent characters that are bound together. One physically weak and one physically strong.</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" onclick="window.location.href='artificerNew.html'"  class="btn btn-sm btn-outline-secondary">View</button>
-                    </div>
-                    <small class="text-muted">05/13/2022</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card shadow-sm">
-                <img src="images/Gravity_Push_Pull.webp" class="bd-placeholder-img card-img-top" width="100%" height="225"  alt="Almighty Push"></svg>    
-                <div class="card-body">
-                  <p class="card-text">This is a cantrip for Pain's almighty push. Can be used with gravity wizards or any other class.</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" onclick="window.location.href='almightyPush.html'" class="btn btn-sm btn-outline-secondary">View</button>
-                    </div>
-                    <small class="text-muted">05/13/2022</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card shadow-sm">
-                <img src="images/devil.webp" class="bd-placeholder-img card-img-top" width="100%" height="225"  alt="Devil"></svg>    
-                <div class="card-body">
-                  <p class="card-text">This is a cool side character/plot building friendemy. The Horned Quickling Devil.</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" onclick="window.location.href='hornedQuickDevil.html'" class="btn btn-sm btn-outline-secondary">View</button>
-                    </div>
-                    <small class="text-muted">05/13/2022</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-    
-            <div class="col">
-              <div class="card shadow-sm">
-                <img src="images/cow.jpg" class="bd-placeholder-img card-img-top" width="100%" height="225"  alt="Cow"></svg>    
-                <div class="card-body">
-                  <p class="card-text">This is a magic item Pocket Cow. A small minature when thrown turns into a life-sized stone cow.</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" onclick="window.location.href='pocketcow.html'" class="btn btn-sm btn-outline-secondary">View</button>
-                    </div>
-                    <small class="text-muted">05/13/2022</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card shadow-sm">
-                <img src="images/gun.jpeg" class="bd-placeholder-img card-img-top" width="100%" height="225"  alt="Gun"></svg>    
-                <div class="card-body">
-                  <p class="card-text">This is a cool background for a failed wizard background. Wizard that uses a spell cannon instead of traditional casting.</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" onclick="window.location.href='bajaBlast.html'" class="btn btn-sm btn-outline-secondary">View</button>
-                    </div>
-                    <small class="text-muted">05/13/2022</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card shadow-sm">
-                <img src="images/babydragon.png" class="bd-placeholder-img card-img-top" width="100%" height="225"  alt="Baby Dragon"></svg>
-    
-                <div class="card-body">
-                  <p class="card-text">This is a micro dragon. Doesn't do much but is a good backstory piece.</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" onclick="window.location.href='microdragon.html'" class="btn btn-sm btn-outline-secondary">View</button>
-                    </div>
-                    <small class="text-muted">05/13/2022</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    
-    </main>
-    
-    <footer>
-        <div class="footer">
-            &copy; Copyright 2022 ThePalad1n
-        </div>
-    </footer>
-    
-    
-        <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
-    
-          
-      </body>
-    </html>
-    
+        <small class="text-muted">05/13/2022</small>
+    </div>
+</div></div></body></html></div><div class="col"><div class="card shadow-sm"><img src="images/devil.webp" class="bd-placeholder-img card-img-top" width="100%" height="225" alt="Devil"></svg><div class="card-body"><p class="card-text">This is a cool side character/plot building friendemy. The Horned Quickling Devil.</p><div class="d-flex justify-content-between align-items-center"><div class="btn-group">
+<button type="button" onclick="window.location.href='hornedQuickDevil.html'" class="btn btn-sm btn-outline-secondary">View</button></div><small class="text-muted">05/13/2022</small></div></div></div></div><div class="col"><div class="card shadow-sm"><img src="images/cow.jpg" class="bd-placeholder-img card-img-top" width="100%" height="225" alt="Cow"></svg><div class="card-body"><p class="card-text">This is a magic item Pocket Cow. A small minature when thrown turns into a life-sized stone cow.</p><div class="d-flex justify-content-between align-items-center"><div class="btn-group"><button type="button" onclick="window.location.href='pocketcow.html'" class="btn btn-sm btn-outline-secondary">View</button></div><small class="text-muted">05/13/2022</small></div></div></div></div><div class="col"><div class="card shadow-sm"><img src="images/gun.jpeg" class="bd-placeholder-img card-img-top" width="100%" height="225" alt="Gun"></svg><div class="card-body"><p class="card-text">This is a cool background for a failed wizard background. Wizard that uses a spell cannon instead of traditional casting.</p><div class="d-flex justify-content-between align-items-center"><div class="btn-group"><button type="button" onclick="window.location.href='bajaBlast.html'" class="btn btn-sm btn-outline-secondary">View</button></div><small class="text-muted">05/13/2022</small></div></div></div></div><div class="col"><div class="card shadow-sm"><img src="images/babydragon.png" class="bd-placeholder-img card-img-top" width="100%" height="225" alt="Baby Dragon"></svg><div class="card-body"><p class="card-text">This is a micro dragon. Doesn't do much but is a good backstory piece.</p><div class="d-flex justify-content-between align-items-center"><div class="btn-group"><button type="button" onclick="window.location.href='microdragon.html'" class="btn btn-sm btn-outline-secondary">View</button></div><small class="text-muted">05/13/2022</small></div></div></div></div></div> </div></div></main><footer><div class="footer">&copy; Copyright 2022 ThePalad1n</div></footer><script src="../assets/dist/js/bootstrap.bundle.min.js"></script></body></html>
