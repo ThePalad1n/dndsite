@@ -11,6 +11,15 @@
     -moz-user-select: none;
     user-select: none;
 }
+body{
+    background-color: aliceblue;
+}
+.album{
+    background-color: aliceblue;
+}
+.nav-item{
+    font-size: 10;
+}
 .nav-link {
     color: white;
 }
