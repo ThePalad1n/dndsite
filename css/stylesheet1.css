@@ -11,15 +11,7 @@
     -moz-user-select: none;
     user-select: none;
 }
-.py-5{
-    background-color: aliceblue;
-}
-.body{
-    background-color: aliceblue;
-}
-.album{
-    background-color: aliceblue;
-}
+
 .nav-item{
     font-size: 10;
 }
