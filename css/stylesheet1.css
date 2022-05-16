@@ -2,7 +2,7 @@
 
 
 .card-body{
-    background-color: lightgray;
+    background-color: whitesmoke;
 }
 .bd-placeholder-img {
     font-size: 1.125rem;
@@ -11,7 +11,10 @@
     -moz-user-select: none;
     user-select: none;
 }
-body{
+.py-5{
+    background-color: aliceblue;
+}
+.body{
     background-color: aliceblue;
 }
 .album{
