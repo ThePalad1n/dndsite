@@ -1,14 +1,8 @@
 /*stylesheet1*/
 
 
-body{
-    background-color: aliceblue;
-}
-.album{
-    background-color:aliceblue
-}
 .card-body{
-    background-color: slategray;
+    background-color: silver;
 }
 .bd-placeholder-img {
     font-size: 1.125rem;
