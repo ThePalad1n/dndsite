@@ -146,3 +146,7 @@
     text-align: end;
 }
 
+.small-middle-container{
+    margin: auto;
+    width: 100%;
+}
