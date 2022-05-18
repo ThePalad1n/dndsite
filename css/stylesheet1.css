@@ -172,7 +172,3 @@
     margin: auto;
     width: 100%;
 }
-
-.conta {
-    background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
-}
