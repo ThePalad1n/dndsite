@@ -48,7 +48,7 @@
 .background2 {
     width:375px;
     height:700px;  
-    background-color: tan;
+    background-color: orange;
     display: flex;
     flex-direction: column;
     font-family: sans-serif;
