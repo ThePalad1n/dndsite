@@ -173,10 +173,6 @@
     width: 100%;
 }
 
-.main {
-    background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
-}
-
-.section {
+.containera {
     background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
 }
