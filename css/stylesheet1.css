@@ -151,9 +151,8 @@
 .footer {
     flex: 0 1 40px;
     display: flex;
-    line-height: 40px;
-    font-size: 18pt;
-    font-weight: bold;
+    line-height: 10px;
+    font-size: 10pt;
 }
 
 .footer-left {
