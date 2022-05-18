@@ -1,10 +1,11 @@
 /*stylesheet1*/
 
 
-.card-body{
+.card-body {
     background-color: whitesmoke;
 }
-.card2.body{
+
+.card2.body {
     background-color: whitesmoke;
 }
 
@@ -16,9 +17,10 @@
     user-select: none;
 }
 
-.nav-item{
+.nav-item {
     font-size: 12;
 }
+
 .nav-link {
     color: white;
 }
@@ -28,35 +30,59 @@
         font-size: 3.5rem;
     }
 }
+
 .black-text {
     color: black;
     background-color: blanchedalmond;
 }
 
 .white-text {
-    color: black    ;
+    color: black;
     background-color: tan;
 }
 
-.r {margin-right: 15px;}
-.l {margin-left: 15px;}
-.t {margin-top: 15px;}
-.b {margin-bottom: 15px;}
+.r {
+    margin-right: 15px;
+}
 
-.r2 {margin-right: 2px;}
-.r4 {margin-right: 4px;}
-.r10 {margin-right: 10px;}
-.l10 {margin-left: 10px;}
+.l {
+    margin-left: 15px;
+}
+
+.t {
+    margin-top: 15px;
+}
+
+.b {
+    margin-bottom: 15px;
+}
+
+.r2 {
+    margin-right: 2px;
+}
+
+.r4 {
+    margin-right: 4px;
+}
+
+.r10 {
+    margin-right: 10px;
+}
+
+.l10 {
+    margin-left: 10px;
+}
 
 .title-row {
     flex: 0 1 auto;
     display: flex;
     flex-direction: row;
 }
+
 .title-right {
     flex: 1;
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;
 }
 
 .title-level {
@@ -70,7 +96,7 @@
 
 .title-name {
     height: 50px;
-    line-height:50px;
+    line-height: 50px;
     font-size: 18pt;
     font-weight: bold;
     text-align: center;
@@ -80,7 +106,7 @@
 
 .title-subname {
     height: 20px;
-    line-height:20px;
+    line-height: 20px;
     font-size: 12pt;
     font-weight: bold;
     text-align: center;
@@ -122,7 +148,7 @@
     border-bottom-right-radius: 15px;
 }
 
-.footer {  
+.footer {
     flex: 0 1 40px;
     display: flex;
     line-height: 40px;
@@ -142,11 +168,15 @@
     text-align: end;
 }
 
-.small-middle-container{
+.small-middle-container {
     margin: auto;
     width: 100%;
 }
 
-.main{
-    background-color:  rgb(52, 58, 64);
+.main {
+    background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.section {
+    background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
 }
