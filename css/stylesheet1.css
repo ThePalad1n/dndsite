@@ -4,6 +4,9 @@
 .card-body{
     background-color: whitesmoke;
 }
+.card2.body{
+    background-color: whitesmoke;
+}
 
 .bd-placeholder-img {
     font-size: 1.125rem;
@@ -44,17 +47,6 @@
 .r4 {margin-right: 4px;}
 .r10 {margin-right: 10px;}
 .l10 {margin-left: 10px;}
-
-.background2 {
-    width:375px;
-    height:700px;  
-    background-color: orange;
-    display: flex;
-    flex-direction: column;
-    font-family: sans-serif;
-    padding-right: 15px;
-    padding-left: 15px;
-}
 
 .title-row {
     flex: 0 1 auto;
