@@ -147,7 +147,6 @@
     width: 100%;
 }
 
-.top{
-    background-color: black;
-    color: white;
+.py-5.text-center.container{
+    background-color: grey;
 }
