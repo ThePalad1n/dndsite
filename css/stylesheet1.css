@@ -2,7 +2,11 @@
 
 
 .card-body{
-    background-color: whitesmoke;
+    background-color: tan;
+}
+
+.card2-body{
+    background-color: tan;
 }
 .bd-placeholder-img {
     font-size: 1.125rem;
